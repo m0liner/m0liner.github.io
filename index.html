@@ -1,0 +1,1120 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Moli · Diseño gráfico, fotografía y arte. Portfolio de Lucía Molinero Muñoz.">
+<meta property="og:title" content="MOLI">
+<meta property="og:description" content="Diseño gráfico, fotografía y arte.">
+<meta property="og:image" content="https://m0liner.github.io/img/esfera.jpg">
+<title>MOLI</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+/* Layout: banda negra de navegación con pastillas → vistas por hash (inicio / fotografía / diseño / sin ctrl+z / galerías).
+   Un solo look (la identidad lima de MOLI), sin modo oscuro: los colores se fijan siempre. */
+:root{
+  --logo-m:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%22518%20343%20397%20103%22%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%3E%3Cdefs%3E%3Cg/%3E%3CclipPath%20id%3D%227e7859c11f%22%3E%3Cpath%20d%3D%22M%200.558594%205%20L%20152%205%20L%20152%2098%20L%200.558594%2098%20Z%20M%200.558594%205%20%22%20clip-rule%3D%22nonzero%22/%3E%3C/clipPath%3E%3CclipPath%20id%3D%22e5a274c57b%22%3E%3Cpath%20d%3D%22M%20151%200.640625%20L%20252%200.640625%20L%20252%20101%20L%20151%20101%20Z%20M%20151%200.640625%20%22%20clip-rule%3D%22nonzero%22/%3E%3C/clipPath%3E%3CclipPath%20id%3D%22f5b47978e9%22%3E%3Crect%20x%3D%220%22%20width%3D%22397%22%20y%3D%220%22%20height%3D%22120%22/%3E%3C/clipPath%3E%3C/defs%3E%3Cg%20transform%3D%22matrix%281%2C%200%2C%200%2C%201%2C%20520%2C%20344%29%22%3E%3Cg%20clip-path%3D%22url%28%23f5b47978e9%29%22%3E%3Cg%20clip-path%3D%22url%28%237e7859c11f%29%22%3E%3Cg%20fill%3D%22%23000%22%20fill-opacity%3D%221%22%3E%3Cg%20transform%3D%22translate%280.725713%2C%2097.798283%29%22%3E%3Cg%3E%3Cpath%20d%3D%22M%2049.984375%20-16.359375%20L%2056.046875%200%20L%200%200%20L%200%20-92.59375%20L%2068.71875%20-92.59375%20L%2077.03125%20-72.015625%20L%2078.734375%20-72.015625%20L%2086.78125%20-92.59375%20L%20150.484375%20-92.59375%20L%20150.484375%200%20L%2099.578125%200%20L%20109.078125%20-28.09375%20L%20107.359375%20-28.625%20L%2097.203125%200%20L%2058.15625%200%20L%2051.703125%20-17.40625%20Z%20M%2049.984375%20-16.359375%20%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20clip-path%3D%22url%28%23e5a274c57b%29%22%3E%3Cg%20fill%3D%22%23000%22%20fill-opacity%3D%221%22%3E%3Cg%20transform%3D%22translate%28153.833949%2C%2097.798283%29%22%3E%3Cg%3E%3Cpath%20d%3D%22M%2012.65625%20-82.03125%20C%2016.789062%20-86.164062%2021.472656%20-89.421875%2026.703125%20-91.796875%20C%2031.941406%20-94.171875%2037.4375%20-95.617188%2043.1875%20-96.140625%20C%2048.945312%20-96.671875%2054.597656%20-96.144531%2060.140625%20-94.5625%20C%2060.398438%20-94.476562%2060.640625%20-94.410156%2060.859375%20-94.359375%20C%2061.085938%20-94.316406%2061.242188%20-94.296875%2061.328125%20-94.296875%20L%2061.0625%20-92.84375%20C%2060.363281%20-92.9375%2059.617188%20-92.984375%2058.828125%20-92.984375%20C%2058.035156%20-92.984375%2057.285156%20-92.984375%2056.578125%20-92.984375%20C%2051.921875%20-93.066406%2047.457031%20-92.273438%2043.1875%20-90.609375%20C%2038.925781%20-88.941406%2035.082031%20-86.613281%2031.65625%20-83.625%20C%2028.226562%20-80.632812%2025.476562%20-77.179688%2023.40625%20-73.265625%20C%2021.34375%20-69.347656%2020.132812%20-65.171875%2019.78125%20-60.734375%20C%2019.425781%20-56.296875%2020.21875%20-51.789062%2022.15625%20-47.21875%20L%2023.734375%20-47.75%20C%2021.535156%20-53.195312%2020.960938%20-58.515625%2022.015625%20-63.703125%20C%2023.078125%20-68.890625%2025.300781%20-73.546875%2028.6875%20-77.671875%20C%2032.070312%20-81.804688%2036.203125%20-85.101562%2041.078125%20-87.5625%20C%2045.960938%20-90.03125%2051.128906%20-91.265625%2056.578125%20-91.265625%20C%2063.265625%20-91.265625%2069.332031%20-89.679688%2074.78125%20-86.515625%20C%2080.226562%20-83.347656%2084.796875%20-79.101562%2088.484375%20-73.78125%20C%2092.179688%20-68.46875%2094.691406%20-62.644531%2096.015625%20-56.3125%20C%2097.335938%20-50.070312%2097.335938%20-43.875%2096.015625%20-37.71875%20C%2094.691406%20-31.5625%2092.316406%20-25.84375%2088.890625%20-20.5625%20C%2085.460938%20-15.289062%2081.175781%20-10.765625%2076.03125%20-6.984375%20C%2070.882812%20-3.203125%2065.148438%20-0.566406%2058.828125%200.921875%20C%2053.460938%202.148438%2048.007812%202.476562%2042.46875%201.90625%20C%2036.925781%201.34375%2031.601562%20-0.125%2026.5%20-2.5%20C%2021.40625%20-4.875%2016.789062%20-8.085938%2012.65625%20-12.140625%20C%208.175781%20-16.535156%204.660156%20-21.722656%202.109375%20-27.703125%20C%20-0.441406%20-33.679688%20-1.71875%20-39.96875%20-1.71875%20-46.5625%20C%20-1.800781%20-53.15625%20-0.613281%20-59.523438%201.84375%20-65.671875%20C%204.3125%20-71.828125%207.914062%20-77.28125%2012.65625%20-82.03125%20Z%20M%2012.65625%20-82.03125%20%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20fill%3D%22%23000%22%20fill-opacity%3D%221%22%3E%3Cg%20transform%3D%22translate%28251.949655%2C%2097.798283%29%22%3E%3Cg%3E%3Cpath%20d%3D%22M%2054.34375%20-49.59375%20L%2044.1875%20-49.59375%20L%2044.1875%20-47.75%20L%2081.765625%20-47.75%20L%2081.765625%200.125%20L%20-0.125%200.125%20L%20-0.125%20-92.328125%20L%2054.34375%20-92.328125%20Z%20M%2054.34375%20-49.59375%20%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20fill%3D%22%23000%22%20fill-opacity%3D%221%22%3E%3Cg%20transform%3D%22translate%28336.218318%2C%2097.798283%29%22%3E%3Cg%3E%3Cpath%20d%3D%22M%200%20-92.1875%20L%2056.453125%20-92.1875%20L%2056.453125%200%20L%200%200%20Z%20M%200%20-92.1875%20%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --lima:#b7d53e;        /* fondo de sección */
+  --lima-pop:#e6ff6d;    /* pastillas de navegación */
+  --tinta:#0b0b0a;       /* negro de banda y tipografía */
+  --rojo:#cf2a2a;        /* "Hablemos!" */
+  --gris:#bdbcb8;        /* banda de contacto */
+  --papel:#ffffff;
+  /* TT Norms es de pago: si se compra la licencia web, se añaden sus archivos y pasa a usarse sola. Mientras, Figtree (muy parecida). */
+  --display:"TT Norms Pro","TT Norms","Figtree",system-ui,sans-serif;
+  --body:"TT Norms Pro","TT Norms","Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Instrument Serif",Georgia,serif;
+  --gutter:max(16px,env(safe-area-inset-left,0px));
+  --gutter-r:max(16px,env(safe-area-inset-right,0px));
+  --grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--lima);color:var(--tinta);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--tinta);outline-offset:3px}
+.wrap{padding-left:var(--gutter);padding-right:var(--gutter-r);max-width:1280px;margin-inline:auto}
+
+/* ---------- NAV ---------- */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--tinta)}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--tinta)}
+.nav .wrap{display:flex;justify-content:center;gap:clamp(8px,4vw,64px);padding-block:12px}
+.pill{flex:0 1 220px;min-width:0;text-align:center;text-decoration:none;font-weight:600;font-size:clamp(13px,1.4vw,15px);
+  padding:.62em 1em;border-radius:999px;background:var(--lima-pop);color:var(--tinta);border:2px solid var(--lima-pop);
+  transition:background .4s ease,color .4s ease,border-color .4s ease;white-space:nowrap;
+  animation:rise .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0) * 90ms)}
+.pill:hover{background:var(--tinta);color:var(--lima-pop)}
+/* Dentro de una sección: barra verde clara, botones verde lima y "Inicio" en negro */
+.nav{transition:background .5s ease}
+.nav.alt{background:var(--lima-pop)}
+body:has(.nav.alt)::before{background:var(--lima-pop)}
+.nav.alt .pill{background:var(--lima);border-color:var(--lima)}
+.nav.alt .pill:hover{background:var(--tinta);border-color:var(--tinta);color:var(--lima-pop)}
+.nav.alt .pill.home{background:var(--tinta);border-color:var(--tinta);color:var(--lima-pop)}
+.nav.alt .pill.home:hover{background:var(--lima);border-color:var(--lima);color:var(--tinta)}
+
+/* ---------- VISTAS ---------- */
+.view{display:none}
+.view.on{display:block}
+/* Aparición suave: cada bloque sube unos píxeles y se funde, escalonado */
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.view.on .reveal{animation:rise .9s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0) * 110ms + 80ms)}
+
+/* ---------- HERO (esfera) ---------- */
+/* la sección es más baja que la esfera: el círculo se corta un poco arriba y abajo */
+.hero{--orb:min(84vw,680px);padding-block:0;height:calc(var(--orb) * .84);display:block!important;display:grid;place-items:center;overflow:hidden}
+.orb{width:var(--orb);margin:calc(var(--orb) * -.08) auto 0;aspect-ratio:1;position:relative;display:grid;place-items:center}
+/* el vídeo es la esfera animada; se recorta en círculo para que el fondo lima siempre coincida */
+.orb video,.orb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;clip-path:circle(48.5% at 50% 50%)}
+.orb h1{margin:0;position:relative;z-index:1;line-height:0;color:var(--tinta)}
+.orb .logo{width:calc(var(--orb) * .46);height:auto;display:block}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.orb p{position:absolute;top:66%;margin:0;font-size:clamp(14px,1.6vw,18px);z-index:1;white-space:pre}
+/* efecto máquina de escribir: el texto se teclea letra a letra con un cursor parpadeante */
+.caret{display:inline-block;width:.08em;height:1.05em;margin-left:2px;vertical-align:-.15em;background:currentColor;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+/* el texto completo invisible reserva el sitio, así lo escrito crece desde la izquierda sin moverse */
+.tw{display:inline-grid}
+.tw > *{grid-area:1/1;text-align:left}
+.ghost{visibility:hidden}
+
+/* ---------- SOBRE MÍ ---------- */
+.about{position:relative;isolation:isolate;padding-block:clamp(40px,8vw,96px)}
+/* fondo volteado en espejo: la mancha roja queda detrás del texto */
+.about .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;transform:scaleX(-1)}
+/* foto y texto como un bloque centrado, alineados por el centro vertical */
+.about .grid{display:grid;grid-template-columns:minmax(0,clamp(220px,26vw,340px)) minmax(0,58ch);justify-content:center;gap:clamp(24px,4vw,56px);align-items:center}
+.about .portrait{aspect-ratio:4/5;max-width:100%}
+.about .txt{min-width:0;max-width:62ch;font-size:clamp(16px,1.35vw,18px);line-height:1.6}
+.about .txt p:last-child{margin-bottom:0}
+.about .txt p{margin:0 0 1em}
+.about strong{font-weight:600}
+
+/* ---------- CONTACTO ---------- */
+.contact{background:var(--gris) url("img/fondo-hablemos.jpg") 35% center/cover no-repeat;padding-block:clamp(40px,7vw,80px)}
+.contact .grid{display:grid;grid-template-columns:1fr;gap:32px;align-items:center}
+.contact .collage{width:min(100%,520px);aspect-ratio:902/614;object-fit:cover;box-shadow:0 10px 30px #0003}
+/* En pantallas anchas el fondo se ve entero (con el collage incluido), sin recortes */
+@media (min-width:900px){
+  .contact{aspect-ratio:2576/701;background-position:right center;display:flex;align-items:center;padding-block:24px}
+  .contact .wrap{width:100%}
+  .contact .grid > div{padding-left:clamp(56px,9vw,150px)}
+  .contact .collage{display:none}
+}
+.contact h2{font-family:var(--display);font-weight:700;color:var(--rojo);font-size:clamp(40px,6vw,64px);margin:0 0 .3em;line-height:1}
+.contact ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.contact li{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}
+.contact .val{font-family:var(--display);font-weight:700;color:var(--rojo);font-size:clamp(18px,2.2vw,24px);text-decoration:none;overflow-wrap:anywhere;user-select:all}
+a.val:hover{text-decoration:underline;text-underline-offset:4px}
+/* teléfono: al pulsarlo se copia y aparece un aviso breve */
+.tel{background:none;border:0;padding:0;cursor:copy;text-align:left;user-select:text}
+.tel:hover{text-decoration:underline;text-underline-offset:4px}
+.tip{font:600 12px var(--body);color:var(--papel);background:var(--rojo);border-radius:999px;padding:3px 10px;opacity:0;transform:translateX(-4px);transition:opacity .3s,transform .3s}
+.tip.show{opacity:1;transform:none}
+.thanks{display:block;text-decoration:none;background:var(--papel);text-align:center;padding-block:10px;font-family:var(--serif);font-style:italic;color:var(--rojo);font-size:20px;transition:letter-spacing .5s ease}
+.thanks:hover{letter-spacing:.06em}
+
+/* ---------- EASTER EGG: cama de escáner con servilletas ---------- */
+.scan{--bed:var(--tinta);background:var(--bed);color:var(--papel);position:relative;isolation:isolate;padding-block:clamp(28px,5vw,64px);min-height:100vh}
+.scan::before{content:"";position:absolute;inset:0;background:var(--grain);mix-blend-mode:screen;filter:invert(1);opacity:.08;z-index:-1}
+.scan .back{color:var(--lima-pop)}
+.scan .back:hover{color:var(--lima-pop)}
+.scan-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:clamp(20px,4vw,48px)}
+.scan-title{margin:0;font-family:var(--serif);font-style:italic;color:var(--rojo);font-size:clamp(32px,5vw,56px);line-height:1}
+.scan-note{margin:0;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#a9a8a0}
+/* mesa caótica: cada servilleta en su sitio, girada y solapada (medidas en % del ancho) */
+.scan-bed{container-type:inline-size;overflow:hidden;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+.scan-table{position:relative;height:calc(66cqw * var(--s,1));max-width:100%}
+.nap{margin:0;position:absolute;left:calc(var(--x) * 1cqw);top:calc(var(--y) * 1cqw * var(--s,1));width:calc(var(--w) * 1cqw * var(--s,1));
+  translate:calc(var(--ox) + var(--dx,0px)) calc(var(--oy) + var(--dy,0px));rotate:var(--r);
+  filter:drop-shadow(0 2px 3px #00000080) drop-shadow(0 8px 16px #00000059);transition:rotate .5s cubic-bezier(.2,.7,.2,1),scale .4s,filter .4s}
+@media (max-width:700px){.scan-bed{--s:1.55}}
+.nap img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
+@media (hover:hover) and (pointer:fine){
+  .nap{cursor:grab;touch-action:none}
+  .nap:hover{rotate:calc(var(--r) * .4);scale:1.04;filter:drop-shadow(0 2px 2px #0b0b0a26) drop-shadow(0 14px 24px #0b0b0a26)}
+  .nap.drag{cursor:grabbing;scale:1.08;transition:none;filter:drop-shadow(0 4px 4px #0b0b0a26) drop-shadow(0 24px 36px #0b0b0a33)}
+}
+.view.on .nap{animation:napIn .7s cubic-bezier(.2,.7,.2,1) backwards}
+.view.on .nap:nth-child(n){animation-delay:calc(var(--k,0) * 70ms + 150ms)}
+@keyframes napIn{from{opacity:0;translate:0 -60px;rotate:calc(var(--r) * 2.5);scale:1.15}}
+.scan-foot{margin-top:clamp(32px,5vw,64px);display:flex;justify-content:center}
+.scan-back{text-decoration:none;font-weight:600;font-size:15px;padding:.6em 1.6em;border-radius:999px;background:var(--lima-pop);color:var(--tinta);border:2px solid var(--lima-pop);transition:background .4s ease,color .4s ease;white-space:nowrap}
+.scan-back:hover{background:transparent;color:var(--lima-pop)}
+@media (prefers-reduced-motion:reduce){.view.on .nap{animation:none}}
+
+/* ---------- PÁGINAS DE SECCIÓN ---------- */
+.section{padding-block:clamp(36px,7vw,80px)}
+.big{font-family:var(--display);font-weight:800;font-size:clamp(48px,9vw,104px);line-height:.88;letter-spacing:-.01em;margin:0 0 clamp(24px,4vw,48px);text-transform:uppercase;text-wrap:balance}
+/* tarjetas de ancho fijo y centradas: 4, 3 o 2 por fila sin huecos a un lado */
+.cards{--cw:clamp(140px,22vw,280px);display:grid;grid-template-columns:repeat(var(--cols,var(--n)),var(--cw));justify-content:center;gap:clamp(12px,2vw,24px)}
+/* el título ocupa toda la fila de la rejilla, así empieza justo donde la primera tarjeta */
+.cards .big{grid-column:1/-1}
+.card{text-decoration:none;display:flex;flex-direction:column;gap:10px;min-width:0}
+@media (max-width:640px){.cards{--cols:2;--cw:minmax(0,1fr);justify-content:stretch}}
+.card .ph{aspect-ratio:3/4;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.card .ph img,.card .ph video{transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.card:hover .ph{transform:translateY(-4px)}
+.card:hover .ph img,.card:hover .ph video{transform:scale(1.03)}
+.card span{font-family:var(--display);font-weight:800;font-size:clamp(22px,2.6vw,32px);text-transform:uppercase;line-height:1}
+.card span{background:linear-gradient(currentColor,currentColor) 0 100%/0 2px no-repeat;padding-bottom:4px;align-self:flex-start;transition:background-size .5s ease}
+.card:hover span{background-size:100% 2px}
+
+/* ---------- ÍNDICE EN SCROLL: una banda a sangre por subsección ---------- */
+.section:has(.bands){padding-bottom:0}
+.bands{margin-top:clamp(40px,7vw,80px)}
+.band{position:relative;isolation:isolate;overflow:hidden;background:var(--c);min-height:clamp(380px,62vw,760px);display:flex}
+.band::before{content:"";position:absolute;inset:0;background:var(--grain);mix-blend-mode:multiply;opacity:.4;z-index:-1}
+.band img,.band video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1}
+/* imagen entera pegada a la derecha; el resto de la banda se rellena con su color de fondo */
+.band.fit::before{display:none}
+.band.fit img{object-fit:contain;object-position:right center;left:auto;width:var(--bw,100%)}
+@media (max-width:640px){.band.fit img{width:min(100%,calc(var(--bw,100%) + 25%))}}
+/* oscurecido para que el título se lea sobre imágenes cargadas */
+.band.dim::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#0b0b0a99,#0b0b0a55 60%,#0b0b0a33)}
+.band > em{position:absolute;right:16px;bottom:12px;font:600 11px/1.2 var(--body);letter-spacing:.06em;text-transform:uppercase;color:#ffffffd9;font-style:normal;mix-blend-mode:difference}
+.band-in{width:100%;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding-block:clamp(24px,4vw,48px)}
+.band h3{margin:0;font-family:var(--display);font-weight:800;text-transform:uppercase;color:var(--lima);font-size:clamp(38px,5.6vw,76px);line-height:.9;letter-spacing:-.01em;text-wrap:balance}
+.more{text-decoration:none;font-weight:600;font-size:15px;padding:.6em 2.2em;border-radius:999px;background:var(--lima-pop);color:var(--tinta);border:2px solid var(--lima-pop);transition:background .4s ease,color .4s ease}
+.more:hover{background:var(--tinta);color:var(--lima-pop)}
+/* bandas con fondo claro: título y botón en negro */
+.band.dark h3{color:var(--tinta)}
+.band.dark .more{background:var(--tinta);border-color:var(--tinta);color:var(--lima-pop)}
+.band.dark .more:hover{background:var(--lima-pop);border-color:var(--lima-pop);color:var(--tinta)}
+
+/* ---------- GALERÍA (subpáginas) ---------- */
+.gal-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:clamp(20px,4vw,40px)}
+.gal-head .big{margin:0}
+.back{font-weight:600;text-decoration:none;border-bottom:2px solid currentColor;padding-bottom:2px}
+.back:hover{color:var(--lima-pop)}
+.masonry{columns:3 260px;column-gap:clamp(12px,2vw,20px)}
+
+/* ---------- SERIES (galería tipo Canva): separador negro + mosaico a sangre ---------- */
+.section:has(.series){padding-bottom:0}
+.series-bar{background:var(--tinta);color:var(--lima);font-size:clamp(14px,1.6vw,20px);text-transform:uppercase;letter-spacing:.04em;padding-block:clamp(10px,1.6vw,20px)}
+.series-bar h3{margin:0;font:inherit}
+.series-bar .wrap:has(.spoti){display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.spoti{text-transform:none;letter-spacing:.01em;font-size:.8em;text-decoration:none;color:var(--lima-pop);background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;padding-bottom:2px;transition:background-size .5s ease}
+.spoti:hover{background-size:100% 1px}
+.series-bar .insta{text-decoration:none;text-transform:none;letter-spacing:.01em;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;padding-bottom:2px;transition:background-size .5s ease}
+.series-bar .insta:hover{background-size:100% 1px}
+/* cada fila: las fotos crecen según su proporción, así todas tienen la misma altura,
+   llenan el ancho y nunca se recortan ni se deforman */
+.mosaic-row{display:flex}
+.mosaic-row figure{margin:0;flex:var(--ar) 1 0;aspect-ratio:var(--ar);min-width:0}
+.mosaic-row img{width:100%;height:100%;object-fit:cover}
+.mosaic-row img,.masonry img{cursor:zoom-in}
+.mosaic-row figure{overflow:hidden}
+.mosaic-row img{transition:transform .9s cubic-bezier(.2,.7,.2,1),filter .5s}
+.mosaic-row figure:hover img{transform:scale(1.02)}
+
+/* ---------- COLLAGE (Texturas) ---------- */
+.collage-box{container-type:inline-size;overflow:hidden;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px));padding-block:clamp(24px,4vw,56px)}
+.collage{position:relative;height:calc(var(--h) * 1cqw)}
+.collage-word{position:absolute;inset:-2cqw -4cqw;margin:0;font-family:var(--display);font-weight:800;font-size:13.5cqw;line-height:.86;letter-spacing:-.02em;
+  color:transparent;-webkit-text-stroke:1.5px var(--tinta);opacity:.22;word-break:break-all;pointer-events:none;user-select:none}
+.piece{position:absolute;margin:0;left:calc(var(--x) * 1cqw);top:calc(var(--y) * 1cqw);width:calc(var(--w) * 1cqw);aspect-ratio:var(--ar);z-index:var(--z);
+  transform:rotate(var(--r));box-shadow:0 1.2cqw 2.4cqw #0b0b0a33;transition:transform .7s cubic-bezier(.2,.7,.2,1),box-shadow .7s;cursor:zoom-in}
+.piece img{width:100%;height:100%;object-fit:cover;display:block}
+.piece:hover{transform:rotate(0deg) scale(1.06);z-index:30;box-shadow:0 2cqw 4cqw #0b0b0a55}
+/* entrada: cada pieza cae girando un poco más y se asienta */
+@keyframes drop{from{opacity:0;transform:translateY(-3cqw) rotate(calc(var(--r) * 3))}to{opacity:1;transform:rotate(var(--r))}}
+.view.on .piece{animation:drop .9s cubic-bezier(.2,.7,.2,1) backwards;animation-delay:calc(var(--i) * 70ms + 250ms)}
+/* en móvil: pila suelta que alterna lados y se solapa un poco */
+@media (max-width:700px){
+  .collage{height:auto;display:flex;flex-direction:column;padding-block:6vw}
+  .collage-word{font-size:22vw;inset:0 -6vw}
+  .piece{position:relative;left:auto;top:auto;width:var(--mw);align-self:var(--ms);margin-top:-7vw;box-shadow:0 3vw 6vw #0b0b0a33}
+  .piece:first-of-type{margin-top:0}
+}
+
+/* parrilla de páginas: cada página es una pieza; al pasar el ratón se levanta y el resto se apaga (no se amplía) */
+.pages-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(8px,1.6vw,22px);max-width:1200px;margin-inline:auto;
+  padding:clamp(20px,4vw,56px) max(16px,env(safe-area-inset-right,0px)) clamp(20px,4vw,48px) max(16px,env(safe-area-inset-left,0px))}
+.pg{margin:0;position:relative;aspect-ratio:var(--ar);box-shadow:0 4px 14px #0b0b0a1f;
+  transition:transform .5s cubic-bezier(.2,.7,.2,1),box-shadow .5s,opacity .5s,filter .5s}
+.pg img{width:100%;height:100%;object-fit:cover;display:block}
+.pg::after{content:attr(data-n);position:absolute;top:8px;left:8px;font:700 11px/1 var(--body);letter-spacing:.06em;background:var(--tinta);color:var(--lima-pop);
+  padding:5px 7px;border-radius:999px;opacity:0;transform:translateY(-4px);transition:opacity .35s,transform .35s;font-variant-numeric:tabular-nums}
+@media (hover:hover){
+  .pages-grid:hover .pg{opacity:.45;filter:grayscale(.6)}
+  .pages-grid .pg:hover{opacity:1;filter:none;transform:translateY(-6px) scale(1.06) rotate(-.6deg);z-index:2;box-shadow:0 18px 36px #0b0b0a40}
+  .pages-grid .pg:hover::after{opacity:1;transform:none}
+}
+@media (max-width:640px){.pages-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.detail-label{margin:0 0 clamp(12px,2vw,20px);display:flex;align-items:center;gap:12px;font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.detail-label::after{content:"";flex:1;height:1.5px;background:currentColor;opacity:.5}
+
+/* ---------- PORTADA DOSIERES: dos columnas de páginas que suben y bajan ---------- */
+.vcol{display:flex;gap:8px;padding-inline:8px}
+.vcol::before{display:none}
+.vcol-c{flex:1;min-width:0;overflow:hidden;position:relative}
+.vcol-t{display:flex;flex-direction:column;gap:8px;animation:vup 60s linear infinite}
+.vcol-c.rev .vcol-t{animation-direction:reverse;animation-duration:75s}
+.vcol .vcol-t img,.card:hover .vcol .vcol-t img{position:static;width:100%;height:auto;display:block;transform:none}
+@keyframes vup{to{transform:translateY(-50%)}}
+.card:hover .vcol-t{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){.vcol-t{animation:none}}
+
+/* ---------- BANDA DOSIERES: muro de páginas en movimiento ---------- */
+.band.mq{background:var(--tinta)}
+.band.mq::before{display:none}
+.mq-wall{position:absolute;inset:-25% -15%;z-index:-2;display:flex;flex-direction:column;justify-content:center;gap:clamp(10px,1.4vw,18px);transform:rotate(-7deg)}
+.mq-row{overflow:hidden}
+.mq-track{display:flex;gap:clamp(10px,1.4vw,18px);width:max-content;animation:mq 90s linear infinite}
+.mq-row.rev .mq-track{animation-direction:reverse;animation-duration:110s}
+.mq-track img{height:clamp(110px,15vw,210px);width:auto;display:block;position:static;object-fit:cover}
+@keyframes mq{to{transform:translateX(-50%)}}
+.band.mq:hover .mq-track{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){.mq-track{animation:none}}
+
+/* ---------- INICIO INTERACTIVO ---------- */
+/* la esfera sigue un poco al ratón y el logo se mueve al revés, como si estuvieran a distinta profundidad */
+.hero .orb{translate:calc(var(--mx,0) * 18px) calc(var(--my,0) * 18px);transition:translate .9s cubic-bezier(.2,.7,.2,1)}
+.hero .orb h1{translate:calc(var(--mx,0) * -12px) calc(var(--my,0) * -12px);transition:translate .9s cubic-bezier(.2,.7,.2,1)}
+.hero .orb p{translate:calc(var(--mx,0) * -6px) calc(var(--my,0) * -6px);transition:translate .9s cubic-bezier(.2,.7,.2,1)}
+.hero .orb{cursor:pointer}
+
+/* "Hablemos!" da un pequeño grito cada pocos segundos (y al pasar el ratón) */
+/* "Hablemos!" grita una vez al aparecer en pantalla y otra cada vez que pasas el ratón */
+.contact h2{display:inline-block;transform-origin:15% 85%}
+.contact h2.said{animation:shout .7s ease-in-out .2s}
+.contact h2:hover{animation:shout-hover .6s ease-in-out}
+@keyframes shout{0%,100%{transform:none}25%{transform:scale(1.12) rotate(-5deg)}50%{transform:scale(1.12) rotate(4deg)}75%{transform:scale(1.05) rotate(-2deg)}}
+@keyframes shout-hover{0%,100%{transform:none}25%{transform:scale(1.12) rotate(-5deg)}50%{transform:scale(1.12) rotate(4deg)}75%{transform:scale(1.05) rotate(-2deg)}}
+@media (prefers-reduced-motion:reduce){.contact h2.said,.contact h2:hover{animation:none}}
+
+/* texto de presentación: se teclea letra a letra, como "Pasen y vean..." (el hueco ya está reservado, no salta) */
+.about .txt.pre .ch{opacity:0}
+.about .txt .ch.on{opacity:1}
+.about .txt .ch.cur{position:relative}
+.about .txt .ch.cur::after{content:"";position:absolute;left:100%;top:.12em;width:.08em;height:1.05em;margin-left:1px;background:currentColor;animation:blink 1s steps(1) infinite}
+
+/* ---------- APARICIÓN DE LAS BANDAS AL HACER SCROLL ---------- */
+/* solo se preparan las bandas que están fuera de pantalla; al entrar, la imagen se asienta y el título y el botón suben */
+.band > img,.band > video,.band > .mq-wall{transition:scale 1.4s cubic-bezier(.2,.7,.2,1),filter 1.4s ease}
+.band h3{transition:opacity .9s ease,translate .9s cubic-bezier(.2,.7,.2,1)}
+.band .more{transition:opacity .9s ease .15s,translate .9s cubic-bezier(.2,.7,.2,1) .15s,background .4s ease,color .4s ease,border-color .4s ease}
+.band.pre > img,.band.pre > video,.band.pre > .mq-wall{scale:1.08;filter:brightness(.7)}
+.band.pre h3,.band.pre .more{opacity:0;translate:0 28px}
+
+/* ---------- FLECHA HACIA EL ÍNDICE ---------- */
+.scroll-cue{display:grid;place-items:center;margin:clamp(28px,5vw,56px) auto 0;width:52px;height:52px;border-radius:999px;cursor:pointer;
+  border:2px solid var(--tinta);background:transparent;color:var(--tinta);transition:background .4s,color .4s}
+.scroll-cue svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;animation:nudge 1.8s ease-in-out infinite}
+.scroll-cue:hover{background:var(--tinta);color:var(--lima-pop)}
+@keyframes nudge{0%,100%{transform:translateY(-3px)}50%{transform:translateY(4px)}}
+@media (prefers-reduced-motion:reduce){.scroll-cue svg{animation:none}}
+
+/* ---------- PORTADA MARCAS: cuatro marcas en cuadrícula; al pasar el ratón cada una invierte sus colores ---------- */
+.mcov{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}
+.mcov::before{display:none}
+.mcov i{display:block;position:relative;overflow:hidden;background:var(--b);transition:background-color .6s ease}
+.mcov i .mk{background:var(--f)}
+.mcov .zchar{display:block;position:relative;width:58%;margin:0;aspect-ratio:925/1091}
+.mcov i > *{position:absolute !important;left:50%;top:50%;translate:-50% -50%}
+.mcov .zchar .mk{position:absolute;inset:0;width:100%;height:100%}
+.mcov .zchar .eyes{background:#fff}.mcov .zchar .pupils{background:#111a19}
+.card:hover .mcov i{background:var(--b2)}
+.card:hover .mcov i .mk:not(.eyes):not(.pupils){background:var(--f2)}
+.mcov i:nth-child(2){transition-delay:.08s}.mcov i:nth-child(3){transition-delay:.16s}.mcov i:nth-child(4){transition-delay:.24s}
+.mcov i .mk{transition:background-color .6s ease;transition-delay:inherit}
+
+/* banda de Marcas: las cuatro marcas en fila; al pasar el ratón invierten sus colores, también el título y el botón */
+.mband{position:absolute;inset:0;z-index:-2;grid-template-columns:1.45fr 1fr 1fr 1fr;grid-template-rows:1fr}
+.band:has(.mband)::before{display:none}
+.band:hover .mband i{background:var(--b2)}
+.band:hover .mband i .mk:not(.eyes):not(.pupils){background:var(--f2)}
+.mband .zchar{width:34%}
+.mband i > .mk{width:min(52%,240px) !important}
+.band .mband i:nth-child(3) > .mk,.band .mband i:nth-child(4) > .mk{width:min(40%,180px) !important}
+.band:has(.mband) h3{transition:color .6s ease,opacity .9s ease,translate .9s cubic-bezier(.2,.7,.2,1)}
+.band:has(.mband):hover h3{color:#111a19}
+.band:has(.mband):hover .more{background:#111a19;border-color:#111a19;color:#cfde23}
+.band:has(.mband) .more:hover{background:#cfde23;border-color:#111a19;color:#111a19}
+@media (max-width:640px){.mband{grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}.mband .zchar{width:52%}}
+
+/* ---------- MARCAS ---------- */
+.mk{display:block;background:var(--f);-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat;transition:background-color .7s ease}
+.brand,.mfd{position:relative}
+.section:has(.brand){padding-bottom:0}
+/* especificaciones y paletas van dentro de la propia pieza, sin franjas aparte */
+.brand-foot{position:absolute;left:0;right:0;bottom:0;z-index:2;display:flex;justify-content:space-between;align-items:flex-end;gap:12px 20px;flex-wrap:wrap;
+  padding:clamp(14px,2vw,24px) max(16px,env(safe-area-inset-right,0px)) clamp(14px,2vw,24px) max(16px,env(safe-area-inset-left,0px));color:var(--f);pointer-events:none;transition:color .7s ease}
+.brand-foot > *{pointer-events:auto}
+.specs{margin:0;display:flex;flex-wrap:wrap;gap:4px 0;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
+.specs span:not(:last-child)::after{content:"/";margin-inline:.7em;opacity:.5}
+.mfd .brand-foot{color:var(--tinta)}
+.brand-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--b);transition:background-color .7s ease}
+.stage{background:var(--b);display:grid;place-items:center;overflow:hidden;position:relative;transition:background-color .7s ease}
+.stage.sq{aspect-ratio:1}
+.stage.wide{grid-column:1/-1;aspect-ratio:3.6}
+.stage.still video{width:100%;height:100%;object-fit:cover;display:block}
+.zchar{position:relative;width:48%;margin-bottom:5%;aspect-ratio:925/1091;transition:translate .6s cubic-bezier(.2,.7,.2,1),rotate .6s cubic-bezier(.2,.7,.2,1)}
+.zchar .mk{position:absolute;inset:0}
+.zchar .eyes{background:#fff}
+.zchar .pupils{background:#111a19}
+.stage.sq:hover .zchar{translate:0 -4%;rotate:-4deg}
+.zlogo{width:74%;aspect-ratio:1115/500}
+.gzsym{width:62%;aspect-ratio:501/217;transition:scale .6s cubic-bezier(.2,.7,.2,1)}
+/* Gazteak Zinean: las tres versiones del logo en una sola franja */
+.gz-band{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:clamp(28px,5vw,80px);background:var(--b);transition:background-color .7s ease;
+  min-height:clamp(280px,30vw,440px);padding:clamp(28px,4vw,48px) max(16px,env(safe-area-inset-right,0px)) clamp(64px,6vw,88px) max(16px,env(safe-area-inset-left,0px))}
+.gz-band .mk{transition:background-color .7s ease,scale .6s cubic-bezier(.2,.7,.2,1)}
+.gz-band .mk:hover{scale:1.06}
+.gz-band .gzstack{height:clamp(110px,13vw,190px);aspect-ratio:536/489;width:auto}
+.gz-band .gzsym{height:clamp(44px,5vw,74px);aspect-ratio:501/217;width:auto}
+.gz-band .gzlock{height:clamp(30px,3.6vw,54px);aspect-ratio:1827/223;width:auto}
+@media (max-width:640px){.gz-band{flex-direction:column;padding-bottom:120px}.gz-band .gzlock{height:auto;width:80vw}}
+.stage:hover .gzsym{scale:1.08}
+.gzlock{width:72%;aspect-ratio:1827/223}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chips{gap:8px}
+.chip{width:26px;height:26px;border-radius:999px;cursor:pointer;padding:0;border:2px solid currentColor;
+  background:linear-gradient(135deg,var(--cb) 50%,var(--cf) 50%);transition:transform .3s,box-shadow .3s}
+.chip:hover{transform:scale(1.15)}
+.chip.on{transform:scale(1.15);box-shadow:0 0 0 3px var(--b),0 0 0 5px currentColor}
+.icons-band{background:var(--tinta);padding-block:clamp(36px,6vw,80px)}
+.icons-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,5vw,64px) clamp(16px,3vw,40px)}
+.ico{margin:0;display:flex;flex-direction:column;align-items:center;gap:14px;--f:var(--lima-pop)}
+.ico .mk{width:min(150px,60%);aspect-ratio:1;transition:background-color .4s ease,translate .5s cubic-bezier(.2,.7,.2,1),scale .5s cubic-bezier(.2,.7,.2,1)}
+.ico figcaption{color:#e9e9e2;font-size:13px;letter-spacing:.08em;text-transform:uppercase;background:linear-gradient(currentColor,currentColor) 50% 100%/0 1px no-repeat;padding-bottom:4px;transition:background-size .5s ease}
+.ico:hover .mk{--f:var(--papel);background:var(--papel);translate:0 -6px;scale:1.08}
+.ico:hover figcaption{background-size:100% 1px}
+@media (max-width:640px){
+  .brand-grid{grid-template-columns:1fr}
+  .stage.wide{aspect-ratio:2.4}
+  .icons-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* MFD: logo maestro y submarcas en una sola franja */
+.mfd{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:clamp(28px,5vw,80px);background:#efefec;
+  min-height:clamp(280px,30vw,440px);padding:clamp(28px,4vw,48px) max(16px,env(safe-area-inset-right,0px)) clamp(64px,6vw,88px) max(16px,env(safe-area-inset-left,0px))}
+.mfd-master{background:none;display:block;flex:0 1 min(36%,520px)}
+.mfd-logo{position:relative;width:100%;aspect-ratio:615/208}
+.mfd-logo .mk{position:absolute;inset:0}
+.mfd-logo .sym{transform-origin:87.7% 37.5%;transition:rotate 1s cubic-bezier(.2,.7,.2,1)}
+.mfd-master:hover .sym{rotate:90deg}
+.mfd-subs{display:flex;align-items:center;gap:clamp(24px,4vw,56px);padding-left:clamp(28px,5vw,80px);border-left:1.5px solid #0b0b0a26}
+/* huecos fijos del tamaño de la submarca más ancha: al cambiar de una a otra nada se mueve */
+.mfd-subs .mk{transition:background-color .6s ease,opacity .3s ease}
+.mfd-h{--hh:clamp(40px,4.6vw,66px);height:var(--hh);width:calc(var(--hh) * 4.87)}
+.mfd-v{--vh:clamp(80px,9vw,130px);height:var(--vh);width:calc(var(--vh) * 1.86)}
+.mfd-subs .mk.out{opacity:0}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{font:600 12px var(--body);letter-spacing:.08em;padding:.55em 1.1em;border-radius:999px;cursor:pointer;border:2px solid var(--tinta);background:transparent;color:var(--tinta);transition:background .3s,color .3s}
+.tab:hover,.tab.on{background:var(--tinta);color:var(--lima-pop)}
+@media (max-width:640px){.mfd{flex-direction:column;padding-bottom:120px}.mfd-master{flex-basis:auto;width:80%}.mfd-subs{border-left:0;padding-left:0;flex-direction:column}.mfd-h{--hh:clamp(32px,11vw,56px)}}
+
+/* ---------- COLLAGE: rejilla tipo Canva sobre negro ---------- */
+.section:has(.cgrid),.section[data-parent]:has(.mosaic){padding-bottom:0}
+/* a sangre y sin huecos: fila de cuatro + pieza grande con dos a su lado (mismo alto exacto) */
+.cgrid{display:grid}
+.cgrid .c3{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.cgrid .c3:has(.cbig){grid-template-columns:repeat(3,minmax(0,1fr))}
+.cgrid .cbig{grid-column:span 2}
+.cgrid .cstack{display:grid;grid-template-rows:1fr 1fr}
+.cgrid figure{margin:0;overflow:hidden;aspect-ratio:.72}
+.cgrid .cbig figure{aspect-ratio:.713}
+.cgrid .cstack figure{aspect-ratio:auto;height:100%}
+.cgrid img{display:block;width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.cgrid figure:hover img{transform:scale(1.02)}
+@media (max-width:640px){.cgrid .c3{grid-template-columns:1fr 1fr}.cgrid .c3:has(.cbig){grid-template-columns:1fr}.cgrid .cbig{grid-column:auto}.cgrid .cstack{grid-template-rows:none;grid-template-columns:1fr 1fr}.cgrid .cstack figure{aspect-ratio:.72;height:auto}}
+
+/* ---------- EN CONSTRUCCIÓN ---------- */
+.section:has(.wip){padding-bottom:0}
+.wip{position:relative;overflow:hidden;background:var(--tinta);color:var(--papel);padding-block:clamp(70px,10vw,140px)}
+.wip-in{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px;padding-block:clamp(30px,5vw,60px)}
+.wip-big{margin:0;font-family:var(--display);font-weight:800;text-transform:uppercase;color:var(--lima-pop);font-size:clamp(40px,8vw,110px);line-height:.9;text-wrap:balance}
+.wip-txt{margin:0;max-width:44ch;font-size:16px;color:#d9d9d2}
+.wip-txt a{color:var(--lima-pop)}
+.tape{position:absolute;left:-10%;right:-10%;height:clamp(34px,4vw,48px);display:flex;align-items:center;overflow:hidden;
+  background:repeating-linear-gradient(-45deg,var(--lima-pop) 0 22px,var(--tinta) 22px 44px);box-shadow:0 6px 18px #0006}
+.tape span{white-space:nowrap;font:800 13px/1 var(--display);letter-spacing:.14em;color:var(--tinta);background:var(--lima-pop);padding:6px 14px;animation:tape 40s linear infinite}
+.t1{top:clamp(28px,4vw,52px);transform:rotate(-3deg)}
+.t2{bottom:clamp(28px,4vw,52px);transform:rotate(2.5deg)}
+.t2 span{animation-direction:reverse}
+@keyframes tape{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.tape span{animation:none}}
+
+/* ---------- IDENTIDAD interactiva ---------- */
+/* al pasar por una pieza, el resto de la serie se apaga un poco */
+@media (hover:hover){
+  #v-identidad .mosaic:hover figure{filter:saturate(.35) brightness(.7);transition:filter .5s}
+  #v-identidad .mosaic figure:hover{filter:none}
+}
+#v-identidad .mosaic figure{transition:filter .5s}
+/* muestras de color: al pasar aparece el nombre y el código */
+.swatch{position:relative}
+.swatch::after{content:attr(data-cap);position:absolute;left:12px;bottom:12px;font:600 12px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;
+  color:#fff;background:#0b0b0a99;padding:7px 10px;border-radius:999px;opacity:0;translate:0 6px;transition:opacity .35s,translate .35s;pointer-events:none}
+.swatch:hover::after{opacity:1;translate:0 0}
+/* personaje de Zianuro: los ojos siguen al ratón */
+.live-char{position:relative;background:#d5d900;display:grid;place-items:center;cursor:crosshair}
+.live-char .zchar{width:auto;height:72%;aspect-ratio:925/1091;margin:0;position:relative}
+.live-char .zchar .mk{position:absolute;inset:0;background:#171f14}
+.live-char .zchar .eyes{background:#fff}
+.live-char .zchar .pupils{background:#171f14;translate:var(--px,0) var(--py,0);transition:translate .12s linear}
+.live-char small{position:absolute;right:16px;bottom:14px;font:600 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:#171f14;opacity:.55}
+@media (hover:none){.live-char small{display:none}}
+
+/* ---------- BOTÓN SUBIR ---------- */
+.to-top{position:fixed;z-index:20;right:calc(max(16px,env(safe-area-inset-right,0px)) + 4px);bottom:calc(max(16px,env(safe-area-inset-bottom,0px)) + 4px);
+  width:48px;height:48px;border-radius:999px;border:2px solid var(--tinta);background:var(--lima-pop);color:var(--tinta);cursor:pointer;display:grid;place-items:center;
+  opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .4s ease,transform .4s ease,background .4s ease,color .4s ease}
+.to-top.show{opacity:1;transform:none;pointer-events:auto}
+.to-top:hover{background:var(--tinta);color:var(--lima-pop)}
+.to-top svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- VISOR (foto en grande con flechas) ---------- */
+.lb[hidden]{display:none}
+.lb{position:fixed;inset:0;z-index:50;background:#0b0b0af2;display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:100%;align-items:center;
+  padding:max(16px,env(safe-area-inset-top,0px)) max(8px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px));
+  animation:lbIn .35s ease both}
+@keyframes lbIn{from{opacity:0}to{opacity:1}}
+.lb figure{margin:0;height:100%;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+.lb img{max-width:100%;max-height:calc(100% - 36px);object-fit:contain;transition:opacity .25s}
+.lb img.fade{opacity:0}
+.lb figcaption{color:var(--lima-pop);font-size:13px;letter-spacing:.06em;text-transform:uppercase;font-variant-numeric:tabular-nums}
+.lb button{background:none;border:0;color:var(--lima-pop);cursor:pointer;display:grid;place-items:center;border-radius:999px;transition:background .3s,color .3s}
+.lb button:hover{background:var(--lima-pop);color:var(--tinta)}
+.lb .nav-btn{width:clamp(40px,5vw,56px);height:clamp(40px,5vw,56px)}
+.lb .close{position:absolute;top:max(12px,env(safe-area-inset-top,0px));right:max(12px,env(safe-area-inset-right,0px));width:44px;height:44px}
+.lb svg{width:55%;height:55%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:640px){.lb{grid-template-columns:1fr}.lb .nav-btn{position:absolute;bottom:max(14px,env(safe-area-inset-bottom,0px))}.lb .prev{left:20px}.lb .next{right:20px}}
+
+@media (max-width:640px){
+  .mosaic-row{flex-wrap:wrap}
+  .mosaic-row figure{flex-basis:100%}
+  .mosaic-row.keep figure{flex-basis:0}
+  /* filas de cuadrados: en móvil se reparten de 2 en 2 entre todas las filas */
+  .mosaic:has(.half){display:flex;flex-wrap:wrap}
+  .mosaic-row.half{display:contents}
+  .mosaic-row.half figure{flex:0 0 50%}
+}
+.masonry .ph{break-inside:avoid;margin-bottom:clamp(12px,2vw,20px)}
+
+/* ---------- IMÁGENES / HUECOS ---------- */
+/* .ph es el marco: cuando haya foto, va un <img> dentro con object-fit:cover → nunca se deforma */
+.ph{position:relative;overflow:hidden;background:var(--c,#9aa95a);max-width:100%}
+.ph::before{content:"";position:absolute;inset:0;background:var(--grain);mix-blend-mode:multiply;opacity:.4}
+.ph img,.ph video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ph em{position:absolute;left:10px;bottom:8px;font:600 11px/1.2 var(--body);letter-spacing:.06em;text-transform:uppercase;color:#ffffffd9;font-style:normal;mix-blend-mode:difference}
+
+footer{background:var(--tinta);color:var(--lima-pop);font-size:14px}
+.foot{display:grid;grid-template-columns:1.4fr repeat(3,minmax(0,1fr)) 1.4fr;gap:clamp(24px,4vw,48px);padding-block:clamp(40px,6vw,72px) clamp(28px,4vw,44px)}
+.f-logo{display:block;width:120px;aspect-ratio:397/103;background:var(--lima-pop);-webkit-mask:var(--logo-m) left center/contain no-repeat;mask:var(--logo-m) left center/contain no-repeat;margin-bottom:14px}
+.f-brand p{margin:0;opacity:.75;line-height:1.5}
+.f-col{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-width:0}
+.f-col h4{margin:0 0 6px;font:700 11px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;opacity:.6}
+.f-col a,.f-col .f-tel{color:var(--lima-pop);text-decoration:none;font:inherit;overflow-wrap:anywhere;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;padding:0 0 2px;transition:background-size .4s ease}
+.f-col a:hover,.f-col .f-tel:hover{background-size:100% 1px;text-decoration:none}
+.f-telrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.f-legal{display:flex;justify-content:space-between;gap:8px 24px;flex-wrap:wrap;border-top:1px solid #e6ff6d33;padding-block:16px 20px;font-size:12px;opacity:.7}
+.f-legal span{max-width:70ch}
+@media (max-width:900px){.foot{grid-template-columns:repeat(3,minmax(0,1fr))}.f-brand{grid-column:1/-1}.foot > .f-col:last-child{grid-column:1/-1}}
+@media (max-width:520px){.foot{grid-template-columns:1fr 1fr}.foot > .f-col:nth-child(4){grid-column:1/-1}}
+
+@media (max-width:720px){
+  .about .grid,.contact .grid{grid-template-columns:1fr}
+  .about .portrait{width:min(100%,300px);justify-self:center}
+  .about .txt{justify-self:center}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<nav class="nav" aria-label="Secciones"><div class="wrap" id="nav"></div></nav>
+
+<main>
+  <!-- INICIO -->
+  <section class="view" id="v-inicio">
+    <div class="hero wrap">
+      <div class="orb reveal">
+        <video autoplay muted loop playsinline poster="img/esfera.jpg" aria-hidden="true"><source src="img/esfera.mp4" type="video/mp4"></video>
+        <h1><span class="sr">MOLI</span><svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="518 343 397 103" aria-hidden="true" focusable="false"><defs><g/><clipPath id="7e7859c11f"><path d="M 0.558594 5 L 152 5 L 152 98 L 0.558594 98 Z M 0.558594 5 " clip-rule="nonzero"/></clipPath><clipPath id="e5a274c57b"><path d="M 151 0.640625 L 252 0.640625 L 252 101 L 151 101 Z M 151 0.640625 " clip-rule="nonzero"/></clipPath><clipPath id="f5b47978e9"><rect x="0" width="397" y="0" height="120"/></clipPath></defs><g transform="matrix(1, 0, 0, 1, 520, 344)"><g clip-path="url(#f5b47978e9)"><g clip-path="url(#7e7859c11f)"><g fill="currentColor" fill-opacity="1"><g transform="translate(0.725713, 97.798283)"><g><path d="M 49.984375 -16.359375 L 56.046875 0 L 0 0 L 0 -92.59375 L 68.71875 -92.59375 L 77.03125 -72.015625 L 78.734375 -72.015625 L 86.78125 -92.59375 L 150.484375 -92.59375 L 150.484375 0 L 99.578125 0 L 109.078125 -28.09375 L 107.359375 -28.625 L 97.203125 0 L 58.15625 0 L 51.703125 -17.40625 Z M 49.984375 -16.359375 "/></g></g></g></g><g clip-path="url(#e5a274c57b)"><g fill="currentColor" fill-opacity="1"><g transform="translate(153.833949, 97.798283)"><g><path d="M 12.65625 -82.03125 C 16.789062 -86.164062 21.472656 -89.421875 26.703125 -91.796875 C 31.941406 -94.171875 37.4375 -95.617188 43.1875 -96.140625 C 48.945312 -96.671875 54.597656 -96.144531 60.140625 -94.5625 C 60.398438 -94.476562 60.640625 -94.410156 60.859375 -94.359375 C 61.085938 -94.316406 61.242188 -94.296875 61.328125 -94.296875 L 61.0625 -92.84375 C 60.363281 -92.9375 59.617188 -92.984375 58.828125 -92.984375 C 58.035156 -92.984375 57.285156 -92.984375 56.578125 -92.984375 C 51.921875 -93.066406 47.457031 -92.273438 43.1875 -90.609375 C 38.925781 -88.941406 35.082031 -86.613281 31.65625 -83.625 C 28.226562 -80.632812 25.476562 -77.179688 23.40625 -73.265625 C 21.34375 -69.347656 20.132812 -65.171875 19.78125 -60.734375 C 19.425781 -56.296875 20.21875 -51.789062 22.15625 -47.21875 L 23.734375 -47.75 C 21.535156 -53.195312 20.960938 -58.515625 22.015625 -63.703125 C 23.078125 -68.890625 25.300781 -73.546875 28.6875 -77.671875 C 32.070312 -81.804688 36.203125 -85.101562 41.078125 -87.5625 C 45.960938 -90.03125 51.128906 -91.265625 56.578125 -91.265625 C 63.265625 -91.265625 69.332031 -89.679688 74.78125 -86.515625 C 80.226562 -83.347656 84.796875 -79.101562 88.484375 -73.78125 C 92.179688 -68.46875 94.691406 -62.644531 96.015625 -56.3125 C 97.335938 -50.070312 97.335938 -43.875 96.015625 -37.71875 C 94.691406 -31.5625 92.316406 -25.84375 88.890625 -20.5625 C 85.460938 -15.289062 81.175781 -10.765625 76.03125 -6.984375 C 70.882812 -3.203125 65.148438 -0.566406 58.828125 0.921875 C 53.460938 2.148438 48.007812 2.476562 42.46875 1.90625 C 36.925781 1.34375 31.601562 -0.125 26.5 -2.5 C 21.40625 -4.875 16.789062 -8.085938 12.65625 -12.140625 C 8.175781 -16.535156 4.660156 -21.722656 2.109375 -27.703125 C -0.441406 -33.679688 -1.71875 -39.96875 -1.71875 -46.5625 C -1.800781 -53.15625 -0.613281 -59.523438 1.84375 -65.671875 C 4.3125 -71.828125 7.914062 -77.28125 12.65625 -82.03125 Z M 12.65625 -82.03125 "/></g></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(251.949655, 97.798283)"><g><path d="M 54.34375 -49.59375 L 44.1875 -49.59375 L 44.1875 -47.75 L 81.765625 -47.75 L 81.765625 0.125 L -0.125 0.125 L -0.125 -92.328125 L 54.34375 -92.328125 Z M 54.34375 -49.59375 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(336.218318, 97.798283)"><g><path d="M 0 -92.1875 L 56.453125 -92.1875 L 56.453125 0 L 0 0 Z M 0 -92.1875 "/></g></g></g></g></g></svg></h1>
+        <p aria-label="Pasen y vean..."><span class="tw" aria-hidden="true"><span class="ghost">Pasen y vean...</span><span><span class="typed">Pasen y vean...</span><span class="caret"></span></span></span></p>
+      </div>
+    </div>
+
+    <div class="about">
+      <img class="bg" src="img/fondo-sobre-mi.jpg" alt="">
+      <div class="wrap grid">
+        <div class="ph portrait reveal" style="--c:#2b2b2b;--d:1"><img src="img/retrato.jpg" alt="Retrato de Moli en blanco y negro"></div>
+        <div class="txt reveal" style="--d:2">
+          <p><strong>¡Hey! Soy Moli:</strong> diseñadora gráfica, fotógrafa y artista.</p>
+          <p>Trabajo sobre todo para cine y teatro: carteles, dosieres, identidades y webs para productoras y directorxs. Y también llevo ese ojo a sectores menos creativos, donde una buena imagen se nota todavía más.</p>
+          <p>La música me queda muy cerca: fotografío a artistas y bandas, y las portadas de discos son mi siguiente obsesión.</p>
+          <p>Fuera de encargo, disparo en celuloide, dibujo, pinto y hago collage. Todo acaba alimentando lo mismo: imágenes que digan algo sin tener que explicarlo.</p>
+          <p>Bichea, que para eso está :)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="wrap grid">
+        <div class="reveal" style="--d:3">
+          <h2>Hablemos!</h2>
+          <ul>
+            <li><a class="val" href="https://www.instagram.com/m0liner_/" target="_blank" rel="noopener">@m0liner_</a></li>
+            <li><button class="val tel" data-copy="+34636640305" title="Copiar teléfono">+34 636 64 03 05</button><span class="tip" role="status" aria-live="polite"></span></li>
+            <li><a class="val" href="mailto:lumolineero13@gmail.com">lumolineero13@gmail.com</a></li>
+          </ul>
+        </div>
+        <img class="collage reveal" style="--d:4" src="img/collage.jpg" alt="Collage con tiras de fotomatón">
+      </div>
+    </div>
+    <a class="thanks" href="#gracias">Gracias por su visita</a>
+  </section>
+
+  <!-- PÁGINAS DE SECCIÓN Y GALERÍAS: se generan desde SITE -->
+  <!-- EASTER EGG: se llega pulsando "Gracias por su visita" -->
+  <section class="view" id="v-gracias">
+    <div class="scan">
+      <div class="wrap scan-head">
+        <p class="scan-note">Colección de servilletas. Puedes moverlas.</p>
+        <a class="scan-back" href="#inicio">← Volver</a>
+      </div>
+      <div class="scan-bed"><div class="scan-table"><figure class="nap" style="--x:6;--y:4;--w:21;--r:-10deg;--ox:0px;--oy:0px"><img src="img/servilletas/s04.webp" alt="Servilleta con el mensaje «Gracias puta»" loading="lazy" draggable="false"></figure><figure class="nap" style="--x:32;--y:2;--w:22;--r:8deg;--ox:0px;--oy:0px"><img src="img/servilletas/s02.webp" alt="Servilleta con el mensaje «Gracias puta»" loading="lazy" draggable="false"></figure><figure class="nap" style="--x:60;--y:0;--w:18;--r:-4deg;--ox:0px;--oy:0px"><img src="img/servilletas/s12.webp" alt="Servilleta con el mensaje «Gracias puta»" loading="lazy" draggable="false"></figure><figure class="nap" style="--x:78;--y:8;--w:20;--r:9deg;--ox:0px;--oy:0px"><img src="img/servilletas/s06.webp" alt="Servilleta con el mensaje «Gracias puta»" loading="lazy" draggable="false"></figure><figure class="nap" style="--x:14;--y:36;--w:24;--r:7deg;--ox:0px;--oy:0px"><img src="img/servilletas/s07.webp" alt="Servilleta con el mensaje «Gracias puta»" loading="lazy" draggable="false"></figure><figure class="nap" style="--x:50;--y:33;--w:24;--r:-11deg;--ox:0px;--oy:0px"><img src="img/servilletas/s09.webp" alt="Servilleta con el mensaje «Gracias puta»" loading="lazy" draggable="false"></figure></div></div>
+      <div class="wrap scan-foot"><a class="scan-back" href="#inicio">← Volver al inicio</a></div>
+    </div>
+  </section>
+
+  <div id="sections"></div>
+</main>
+
+<button class="to-top" id="toTop" aria-label="Volver arriba"><svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Visor de imágenes" hidden>
+  <button class="nav-btn prev" aria-label="Foto anterior"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="nav-btn next" aria-label="Foto siguiente"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  <button class="close" aria-label="Cerrar"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+</div>
+
+<footer>
+  <div class="wrap foot">
+    <div class="f-brand">
+      <a href="#inicio" class="f-logo" aria-label="MOLI, volver al inicio"></a>
+      <p>Diseño gráfico, fotografía y arte.<br>Madrid</p>
+    </div>
+    <nav class="f-col" aria-label="Secciones">
+      <h4>Fotografía</h4>
+      <a href="#obras">Obras</a><a href="#xa-artistas">XA artistas</a><a href="#texturas">Texturas</a><a href="#film">Film</a>
+    </nav>
+    <nav class="f-col" aria-label="Secciones">
+      <h4>Diseño</h4>
+      <a href="#carteles">Carteles</a><a href="#dosieres">Dosieres</a><a href="#identidad">Identidad</a><a href="#marcas">Marcas</a>
+    </nav>
+    <nav class="f-col" aria-label="Secciones">
+      <h4>Sin Ctrl+Z</h4>
+      <a href="#dibujo">Dibujo</a><a href="#collage">Collage</a><a href="#pintura">Pintura</a>
+    </nav>
+    <div class="f-col">
+      <h4>Contacto</h4>
+      <a href="mailto:lumolineero13@gmail.com">lumolineero13@gmail.com</a>
+      <span class="f-telrow"><button class="tel f-tel" data-copy="+34636640305" title="Copiar teléfono">+34 636 64 03 05</button><span class="tip" role="status" aria-live="polite"></span></span>
+      <a href="https://www.instagram.com/m0liner_/" target="_blank" rel="noopener">Instagram @m0liner_ ↗</a>
+    </div>
+  </div>
+  <div class="wrap f-legal">
+    <span>© <span id="yr">2026</span> Lucía Molinero Muñoz (Moli). Todos los derechos reservados.</span>
+    <span>Todas las imágenes y diseños son propiedad de su autora o de sus respectivos clientes. No se permite su reproducción sin autorización.</span>
+  </div>
+</footer>
+
+<script>
+/* Todo el contenido vive aquí. Para meter fotos: rellena img (ruta o URL) en cada portada
+   y añade la lista de fotos en "gallery". Los colores "c" son solo para los huecos provisionales. */
+const SITE = {
+  fotografia:{label:"Fotografía", title:"Foto<br>grafía", items:[
+    {id:"obras",       name:"Obras",       c:"#d9d5c4", img:"img/foto-obras.jpg",       band:"img/banda-obras.jpg", ink:"dark",
+      /* galería sin subsecciones: filas que alternan verticales y horizontales y equilibran el color */
+      series:[{insta:true, rows:[
+        [["vaca",.728],["tren",1.215],["charco",.667]],
+        [["azotea",1.472],["glitch",1.5],["futbol",1.524]],
+        [["platillo",.696],["roca",1.333],["barba",.75]],
+        [["videollamada",1.71],["pantalla",1.333]],
+        [["cortinas",.85],["leyendo",1.5],["dedo",.622]],
+        [["ipads",1.414],["fotos-carnet",1.414]],
+        [["nino",1.5],["sauce",1.518],["manos",1.5]],
+        [["playa-amarilla",.652],["cables",1.136],["mar",1.38],["arena",1.266]],
+      ].map(r=>r.map(([n,ar])=>({src:`img/obras/${n}.jpg`, ar})))}]},
+    {id:"xa-artistas", name:"XA artistas", c:"#e2622d", img:"img/foto-xa-artistas.jpg", band:"img/banda-xa-artistas.jpg", bandPos:"center 78%",
+      series:[
+        {title:"Lax Lázaro", spotify:"https://open.spotify.com/intl-es/artist/2N1u83BYVn6l20ZK5F2xLN", rows:[
+          [{src:"img/xa/lax-1-cuernos.jpg", ar:2.299}],
+          [{src:"img/xa/lax-2-azul.jpg", ar:.667},{src:"img/xa/lax-3-velo.jpg", ar:.682},{src:"img/xa/lax-4-cenital.jpg", ar:.872}],
+          [{src:"img/xa/lax-5-tumbado.jpg", ar:1.491},{src:"img/xa/lax-6-rosa.jpg", ar:.685}],
+        ]},
+        {title:"Desahogo", spotify:"https://open.spotify.com/intl-es/artist/2gnX0L8kPLKyTVkt24BMdP", rows:[
+          [{src:"img/xa/des-grupo-bn.jpg", ar:1.485}],
+          [{src:"img/xa/des-voz.jpg", ar:1.475},{src:"img/xa/des-bajo.jpg", ar:0.679},{src:"img/xa/des-grito.jpg", ar:1.562}],
+          [{src:"img/xa/des-sofa-verde.jpg", ar:0.666},{src:"img/xa/des-duo.jpg", ar:1.475},{src:"img/xa/des-stratocaster.jpg", ar:0.644}],
+          [{src:"img/xa/des-bateria.jpg", ar:1.51},{src:"img/xa/des-grupo-sofa.jpg", ar:1.497}],
+          [{src:"img/xa/des-bajo-bn.jpg", ar:0.679},{src:"img/xa/des-grupo-morado.jpg", ar:1.561}],
+        ]},
+      ]},
+    {id:"texturas",    name:"Texturas",    c:"#2f7a8a", img:"img/foto-texturas.jpg",    band:"img/banda-texturas.jpg", ink:"dark",
+      /* x, y, w en % del ancho del lienzo; r = giro; z = capa */
+      collage:{h:160, pieces:[
+        {n:"grafitis", ar:1.333, x:4, y:4, w:35, r:-5, z:1, mw:72},
+        {n:"oxido", ar:0.75, x:34, y:2, w:28, r:6, z:4, mw:57},
+        {n:"pixeles", ar:0.562, x:61, y:4, w:14, r:-7, z:5, mw:46},
+        {n:"hormigon-1", ar:0.75, x:71, y:9, w:25, r:7, z:3, mw:51},
+        {n:"pared-roja", ar:0.75, x:8, y:31, w:24, r:-5, z:5, mw:48},
+        {n:"reflejo", ar:1.5, x:25, y:38, w:39, r:-6, z:5, mw:80},
+        {n:"pintura-rosa", ar:0.75, x:56, y:34, w:24, r:-3, z:5, mw:49},
+        {n:"azulejos", ar:0.75, x:76, y:39, w:16, r:4, z:3, mw:46},
+        {n:"corazon", ar:0.75, x:6, y:66, w:18, r:6, z:2, mw:46},
+        {n:"lineas", ar:0.712, x:20, y:67, w:14, r:6, z:6, mw:46},
+        {n:"amarilla", ar:1.333, x:28, y:71, w:34, r:-4, z:1, mw:69},
+        {n:"papel", ar:1.503, x:58, y:64, w:36, r:-5, z:4, mw:75},
+        {n:"glitch", ar:1.333, x:4, y:100, w:44, r:-3, z:2, mw:91},
+        {n:"hormigon-2", ar:0.75, x:45, y:92, w:21, r:4, z:2, mw:46},
+        {n:"pintura-azul", ar:0.75, x:62, y:101, w:24, r:-5, z:4, mw:50},
+        {n:"blanca", ar:0.562, x:82, y:94, w:14, r:-4, z:1, mw:46},
+        {n:"vidriera", ar:1.333, x:3, y:132, w:46, r:7, z:5, mw:92},
+        {n:"cruz", ar:0.75, x:48, y:120, w:28, r:-4, z:5, mw:58},
+        {n:"agujeros", ar:0.754, x:73, y:125, w:24, r:9, z:1, mw:52},
+      ]}},
+    {id:"film",        name:"Film",        c:"#8b8a86", img:"img/foto-film.jpg", pos:"78% center", band:"img/banda-film.jpg", bandPos:"center top",
+      series:[
+        {title:"120mm · Jul-Ago 2026", rows:[
+          {cls:"half", items:[2,3,4].map(n=>({src:`img/film/120-${n}.jpg`, ar:1}))},
+          {cls:"half", items:[5,6,7].map(n=>({src:`img/film/120-${n}.jpg`, ar:1}))},
+        ]},
+      ]},
+  ]},
+  diseno:{label:"Diseño", title:"Diseño<br>gráfico", items:[
+    {id:"carteles",  name:"Carteles",  c:"#e1453a", img:"img/dis-carteles.jpg", band:"img/banda-carteles.jpg", bandVideo:"img/banda-carteles.mp4", bandDim:1,
+      series:[
+        {title:"Gazteak Zinean", rows:[
+          [["gz-house",0.709],["gz-mishima",0.708],["gz-jetee",0.707]].map(([n,ar])=>({src:`img/carteles/${n}.jpg`, ar})),
+        ]},
+        {title:"<i>/La carn</i> · Cine", rows:[
+          [{src:"img/carteles/carn-vertical.jpg", ar:.707},{src:"img/carteles/carn-horizontal.jpg", ar:1.782}],
+        ]},
+        {title:"Otros", rows:[
+          [{src:"img/carteles/alicante-2.jpg", ar:0.708},{src:"img/carteles/ebano.jpg", ar:.707},{src:"img/carteles/alicante.jpg", ar:.719}],
+        ]},
+      ]},
+    {id:"dosieres",  name:"Dosieres",  c:"#ef4d0d",
+      /* portada: páginas reales apiladas que se abren en abanico; banda: tira de páginas en movimiento */
+      cover:[["bat",14],["corazon",15]], marquee:[["bat",14,1.426],["corazon",15,1.802],["bat",14,1.426]], bandDim:1,
+      /* parrilla sin fondo (no se abre en grande) + páginas sueltas que sí se abren */
+      series:[
+        {title:"<i>Bat Arra Bi</i> · Cine", pages:{p:"bat", n:14, ar:1.426}, detail:"Detalle de páginas", rows:[
+          [{src:"img/dosieres/batarrabi-espacios.jpg", ar:1.415},{src:"img/dosieres/batarrabi-calendario.jpg", ar:1.415}],
+        ]},
+        {title:"<i>Un corazón tan grande</i> · Teatro", pages:{p:"corazon", n:15, ar:1.802}, detail:"Detalle de páginas", rows:[
+          [{src:"img/dosieres/corazon-indice.jpg", ar:1.778},{src:"img/dosieres/corazon-sinopsis.jpg", ar:1.778}],
+        ]},
+        {title:"MFD · Pitch deck", pages:{p:"mfdp", n:12, ar:1.745}, detail:"Detalle de páginas", rows:[
+          [{src:"img/dosieres/mfdp-detalle-01.jpg", ar:1.745},{src:"img/dosieres/mfdp-detalle-05.jpg", ar:1.745}],
+        ]},
+        {title:"<i>Arte por venir</i> · Arte", pages:{p:"arte", n:8, ar:1.414}, detail:"Detalle de páginas", rows:[
+          [{src:"img/dosieres/arte-detalle-01.jpg", ar:1.414},{src:"img/dosieres/arte-detalle-03.jpg", ar:1.414}],
+        ]},
+      ]},
+    {id:"identidad", name:"Identidad", c:"#2c3442", img:"img/dis-identidad.jpg", pos:"52% center", band:"img/banda-identidad.jpg",
+      series:[
+        {title:"MFD", rows:[
+          [{src:"img/identidad/mfd-hero.jpg", ar:3.909}],
+          [{src:"img/identidad/mfd-logo.jpg", ar:3.374},{src:"img/identidad/mfd-gris.jpg", ar:1.138, cap:"Gris MFD · #8D8D8D"},{src:"img/identidad/mfd-verde.jpg", ar:1.14, cap:"Verde MFD · #94C11E"}],
+          [{src:"img/identidad/mfd-tarjetas.jpg", ar:1.497},{src:"img/identidad/mfd-chicle.jpg", ar:0.744},{src:"img/identidad/mfd-folleto.webp", ar:1.392},{src:"img/identidad/mfd-banner.jpg", ar:0.916}],
+        ]},
+        {title:"Zianuro", rows:[
+          [{src:"img/identidad/zian-logo.jpg", ar:3.0}],
+          [{src:"img/identidad/zian-bolsa.jpg", ar:0.585},{src:"img/identidad/zian-botella.jpg", ar:0.554},{src:"img/identidad/zian-caja.jpg", ar:0.681},{src:"img/identidad/zian-etiqueta.jpg", ar:1.312}],
+          [{live:true, ar:3.0}],
+        ]},
+      ]},
+    {id:"marcas",    name:"Marcas",    c:"#8fa3a6", img:"img/dis-marcas.jpg", markCover:true, markBand:true, brands:true},
+  ]},
+  "sin-ctrl-z":{label:"Sin Ctrl+Z", title:"Sin<br>Ctrl+Z", items:[
+    {id:"dibujo",  name:"Dibujo", wip:true,  c:"#9fb0c9", img:"img/sin-dibujo.jpg", pos:"62% center", band:"img/banda-dibujo.jpg", bandPos:"center 42%", ink:"dark"},
+    {id:"collage", name:"Collage", c:"#ece7df", img:"img/sin-collage.jpg", band:"img/banda-collage.jpg", bandPos:"center 24%", ink:"dark",
+      /* misma composición que en Canva: fila de tres + bloque grande con columna lateral */
+      series:[{bar:true, rows:[
+        [["vacas",.722],["escalera",.688],["ataud",0.71],["polaroid",.719],["chaqueta",.712]],
+        [["naranja",.713],["cuadricula",.72],["hombres",0.691],["cabeza",.754]],
+      ].map(r=>r.map(([n,ar])=>({src:`img/collage/${n}.jpg`, ar})))}]},
+    {id:"pintura", name:"Pintura", c:"#d8402c", img:"img/sin-pintura.jpg", band:"img/banda-pintura.jpg", bandPos:"center 22%",
+      /* misma distribución que en Canva, a sangre y sin recortes */
+      series:[{bar:true, rows:[[{src:"img/pintura/espejo.jpg", ar:0.75},{src:"img/pintura/espalda.jpg", ar:0.879},{src:"img/pintura/robot.jpg", ar:0.471}],[{src:"img/pintura/sentada.jpg", ar:0.75},{src:"img/pintura/rubia.jpg", ar:0.753},{src:"img/pintura/pareja.jpg", ar:0.75}]]}]},
+  ]},
+};
+/* Tres botones fijos; el de la sección en la que estás se convierte en "Inicio" */
+const NAV = [["fotografia","Fotografía"],["diseno","Diseño"],["sin-ctrl-z","Sin Ctrl+Z"]];
+
+/* pos = encuadre de la foto dentro del marco (qué parte se ve al recortar) */
+const ph = (c, label, img, ratio, pos) =>
+  `<div class="ph" style="--c:${c}${ratio?`;aspect-ratio:${ratio}`:''}">${img?`<img src="${img}" alt="${label}" loading="lazy"${pos?` style="object-position:${pos}"`:''}>`:`<em>${label}</em>`}</div>`;
+
+const host = document.getElementById('sections');
+let html = '';
+const MARK_TILES = `<i style="--b:#111a19;--f:#cfde23;--b2:#cfde23;--f2:#111a19"><span class="zchar"><span class="mk" style="--m:url(img/marcas/zian-body.png)"></span><span class="mk eyes" style="--m:url(img/marcas/zian-eyes.png)"></span><span class="mk pupils" style="--m:url(img/marcas/zian-pupils.png)"></span></span></i>
+      <i style="--b:#7d969d;--f:#3b3b3b;--b2:#3b3b3b;--f2:#efefec"><span class="mk" style="--m:url(img/marcas/gz-stack.png);width:62%;aspect-ratio:536/489"></span></i>
+      <i style="--b:#efefec;--f:#94c11f;--b2:#94c11f;--f2:#efefec"><span class="mk" style="--m:url(img/marcas/mfd-sym-only.png);width:52%;aspect-ratio:1"></span></i>
+      <i style="--b:#111a19;--f:#e6ff6d;--b2:#e6ff6d;--f2:#111a19"><span class="mk" style="--m:url(img/marcas/icon-horror.png);width:58%;aspect-ratio:1"></span></i>`;
+/* MARCAS: cada marca se presenta como un sistema vivo, no como láminas.
+   Los logos son máscaras: se recolorean con las paletas reales de cada marca. */
+const chipsHTML = pal => pal.map(([b,f],i)=>`<button class="chip${i?'':' on'}" type="button" data-i="${i}" style="--cb:${b};--cf:${f}" aria-label="Combinación de color ${i+1}"></button>`).join('');
+function marcasHTML(key, s, it, head){
+  const zPal = [["#111a19","#cfde23"],["#cfde23","#111a19"],["#8f907d","#111a19"],["#111a19","#8f907d"]];
+  const gPal = [["#7d969d","#3b3b3b"],["#839e7d","#3b3b3b"],["#a28287","#3b3b3b"],["#867b9b","#3b3b3b"],["#efefec","#7d969d"],["#efefec","#a28287"],["#efefec","#3b3b3b"],["#3b3b3b","#efefec"]];
+  const mfdSubs = [["cud","#34575a",3.773,.802],["pain","#81969d",3.917,.891],["services","#878787",4.866,1.861],["ia","#3e4561",3.333,.594]];
+  const icons = [["animation","Animation"],["mystery","Mystery"],["documentary","Documentary"],["scifi","Science Fiction"],["horror","Horror"],["western","Western"]];
+  return `<section class="view section" id="v-${it.id}" data-parent="${key}"><div class="wrap">${head}</div>
+
+    <div class="reveal" style="--d:1">
+      <div class="series-bar"><div class="wrap"><h3>Zianuro · Sagardoa</h3></div></div>
+      <div class="brand" data-pal='${JSON.stringify(zPal)}' style="--b:${zPal[0][0]};--f:${zPal[0][1]}">
+        <div class="brand-grid">
+          <div class="stage sq"><div class="zchar"><span class="mk" style="--m:url(img/marcas/zian-body.png)"></span><span class="mk eyes" style="--m:url(img/marcas/zian-eyes.png)"></span><span class="mk pupils" style="--m:url(img/marcas/zian-pupils.png)"></span></div></div>
+          <div class="stage sq"><span class="mk zlogo" style="--m:url(img/marcas/zian-logo.png)"></span></div>
+        </div>
+        <div class="brand-foot"><p class="specs"><span>Sidra natural · Gipuzkoa</span><span>Imagotipo</span><span>Isotipo</span><span>Etiqueta</span><span>Packaging</span></p><div class="chips">${chipsHTML(zPal)}</div></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:2">
+      <div class="series-bar"><div class="wrap"><h3>Gazteak Zinean · Jóvenes programando cine</h3></div></div>
+      <div class="brand" data-pal='${JSON.stringify(gPal)}' style="--b:${gPal[0][0]};--f:${gPal[0][1]}">
+        <div class="gz-band">
+          <span class="mk gzstack" style="--m:url(img/marcas/gz-stack.png)"></span>
+          <span class="mk gzsym" style="--m:url(img/marcas/gz-symbol.png)"></span>
+          <span class="mk gzlock" style="--m:url(img/marcas/gz-lockup.png)"></span>
+        </div>
+        <div class="brand-foot"><p class="specs"><span>Ciclo de cine joven</span><span>Logotipo</span><span>Símbolo</span><span>Sistema de color</span></p><div class="chips">${chipsHTML(gPal)}</div></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:3">
+      <div class="series-bar"><div class="wrap"><h3>MFD · Medical Flowers Developments</h3></div></div>
+      <div class="mfd" data-subs='${JSON.stringify(mfdSubs)}'>
+        <div class="stage mfd-master"><div class="mfd-logo"><span class="mk" style="--m:url(img/marcas/mfd-word.png);--f:#878786"></span><span class="mk sym" style="--m:url(img/marcas/mfd-symbol.png);--f:#94c11f"></span></div></div>
+        <div class="mfd-subs" style="--f:${mfdSubs[0][1]}">
+          <span class="mk mfd-h" style="--m:url(img/marcas/mfd-h-${mfdSubs[0][0]}.png);--ar:${mfdSubs[0][2]}"></span>
+          <span class="mk mfd-v" style="--m:url(img/marcas/mfd-v-${mfdSubs[0][0]}.png);--ar:${mfdSubs[0][3]}"></span>
+        </div>
+        <div class="brand-foot"><p class="specs"><span>Rediseño</span><span>Logotipo</span><span>Submarcas</span></p><div class="tabs">${mfdSubs.map(([k],i)=>`<button class="tab${i?'':' on'}" type="button" data-i="${i}">${k.toUpperCase()}</button>`).join('')}</div></div>
+      </div>
+    </div>
+
+    <div class="reveal" style="--d:4">
+      <div class="series-bar"><div class="wrap"><h3>Iconos · Géneros de cine</h3></div></div>
+      <div class="icons-band"><div class="wrap icons-grid">
+        ${icons.map(([f,l])=>`<figure class="ico"><span class="mk" style="--m:url(img/marcas/icon-${f}.png)"></span><figcaption>${l}</figcaption></figure>`).join('')}
+      </div></div>
+    </div>
+  </section>`;
+}
+
+for (const [key, s] of Object.entries(SITE)){
+  html += `<section class="view section" id="v-${key}"><div class="wrap">
+    <div class="cards" style="--n:${s.items.length}"><h2 class="big reveal">${s.title}</h2>${s.items.map((it,n)=>`<a class="card reveal" style="--d:${n+1}" href="#${it.id}">${it.markCover?`<div class="ph mcov" aria-label="${it.name}">${MARK_TILES}
+    </div>`:it.cover?`<div class="ph vcol" style="--c:var(--tinta)" aria-label="${it.name}">${it.cover.map(([p,n],c)=>{const set=Array.from({length:n},(_,k)=>`<img src="img/dosieres/${p}-${String((k+c*4)%n+1).padStart(2,'0')}.jpg" alt="" loading="lazy">`).join('');return `<div class="vcol-c${c%2?' rev':''}"><div class="vcol-t">${set}${set}</div></div>`}).join('')}</div>`:it.video?`<div class="ph" style="--c:${it.c}"><video src="${it.video}" poster="${it.img}" autoplay muted loop playsinline aria-label="${it.name}"></video></div>`:ph(it.c,it.name,it.img,null,it.pos)}<span>${it.name}</span></a>`).join('')}</div>
+    <button class="scroll-cue reveal" style="--d:${s.items.length+1}" type="button" aria-label="Bajar al índice de ${s.label}"><svg viewBox="0 0 24 24"><path d="M12 4v15M6 13l6 6 6-6"/></svg></button>
+  </div>
+  <div class="bands">${s.items.map(it=>`
+    <article class="band${it.ink==='dark'?' dark':''}${it.bandBg?' fit':''}${it.bandDim?' dim':''}${it.marquee?' mq':''}" style="--c:${it.bandBg||it.c}${it.bandW?`;--bw:${it.bandW}`:''}">
+      ${it.markBand?`<div class="mcov mband" aria-hidden="true">${MARK_TILES}</div>`:it.marquee?`<div class="mq-wall" aria-hidden="true">${it.marquee.map(([p,n,ar],r)=>{const set=Array.from({length:n},(_,k)=>`<img src="img/dosieres/${p}-${String((k+r*5)%n+1).padStart(2,'0')}.jpg" alt="" loading="lazy" style="aspect-ratio:${ar}">`).join('');return `<div class="mq-row${r%2?' rev':''}"><div class="mq-track">${set}${set}</div></div>`}).join('')}</div>`:it.bandVideo?`<video src="${it.bandVideo}" poster="${it.band}" autoplay muted loop playsinline aria-hidden="true"></video>`:it.band?`<img src="${it.band}" alt="" loading="lazy"${it.bandPos?` style="object-position:${it.bandPos}"`:''}>`:`<em>imagen de fondo · ${it.name}</em>`}
+      <div class="wrap band-in">
+        <h3>${it.name}</h3>
+        <a class="more" href="#${it.id}">Ver más</a>
+      </div>
+    </article>`).join('')}</div>
+  </section>`;
+  for (const it of s.items){
+    const head = `<div class="gal-head reveal"><h2 class="big">${it.name}</h2><a class="back" href="#${key}">Atrás</a></div>`;
+    if (it.brands){ html += marcasHTML(key, s, it, head); continue; }
+    if (it.wip){
+      const tape = Array(10).fill('EN CONSTRUCCIÓN').join(' · ');
+      html += `<section class="view section" id="v-${it.id}" data-parent="${key}"><div class="wrap">${head}</div>
+        <div class="wip reveal" style="--d:1">
+          <div class="tape t1" aria-hidden="true"><span>${tape} · ${tape}</span></div>
+          <div class="wrap wip-in">
+            <p class="wip-big">En construcción</p>
+          </div>
+          <div class="tape t2" aria-hidden="true"><span>${tape} · ${tape}</span></div>
+        </div>
+      </section>`;
+      continue;
+    }
+    if (it.collage){
+      /* composición libre: piezas sueltas, giradas y solapadas sobre la palabra repetida */
+      const word = it.name.toUpperCase();
+      html += `<section class="view section" id="v-${it.id}" data-parent="${key}"><div class="wrap">${head}</div>
+        <div class="reveal" style="--d:1">
+          <div class="series-bar"><div class="wrap"><a class="insta" href="https://www.instagram.com/m0liner_/" target="_blank" rel="noopener">@m0liner_</a></div></div>
+          <div class="collage-box">
+            <div class="collage" style="--h:${it.collage.h}">
+              <p class="collage-word" aria-hidden="true">${Array(22).fill(word).join(' ')}</p>
+              ${it.collage.pieces.map((c,n)=>`<figure class="piece" style="--x:${c.x};--y:${c.y};--w:${c.w};--ar:${c.ar};--r:${c.r}deg;--z:${c.z||1};--mw:${c.mw||70}%;--ms:${['flex-start','flex-end','center'][n%3]};--i:${n}"><img src="img/texturas/${c.n}.jpg" alt="${it.name}" loading="lazy"></figure>`).join('')}
+            </div>
+          </div>
+        </div>
+      </section>`;
+      continue;
+    }
+    if (it.series){
+      html += `<section class="view section" id="v-${it.id}" data-parent="${key}"><div class="wrap">${head}</div>
+        ${it.series.map((se,n)=>`<div class="reveal" style="--d:${n+1}">
+          ${se.title?`<div class="series-bar"><div class="wrap"><h3>${se.title}</h3>${se.spotify?`<a class="spoti" href="${se.spotify}" target="_blank" rel="noopener">Escuchar en Spotify ↗</a>`:''}</div></div>`:''}
+          ${se.pages?`<div class="pages-grid" style="--ar:${se.pages.ar}">${Array.from({length:se.pages.n},(_,k)=>{const n=String(k+1).padStart(2,'0');return `<figure class="pg" data-n="${n}" style="--i:${k}"><img src="img/dosieres/${se.pages.p}-${n}.jpg" alt="${se.title.replace(/<[^>]+>/g,'')}, página ${k+1}" loading="lazy"></figure>`}).join('')}</div>`:''}
+          ${se.detail?`<div class="wrap"><p class="detail-label">${se.detail}</p></div>`:''}
+          ${se.bar?`<div class="series-bar"><div class="wrap"><h3>&nbsp;</h3></div></div>`:''}
+          ${se.insta?`<div class="series-bar"><div class="wrap"><a class="insta" href="https://www.instagram.com/m0liner_/" target="_blank" rel="noopener">@m0liner_</a></div></div>`:''}
+          ${se.cgrid?(()=>{const g=se.cgrid, F=n=>`<figure><img src="img/collage/${n}.jpg" alt="${it.name}" loading="lazy"></figure>`;
+            return `<div class="cgrid"><div class="c3">${g.row.map(F).join('')}</div><div class="c3"><div class="cbig">${F(g.big)}</div><div class="cstack">${g.stack.map(F).join('')}</div></div>${g.extra?`<div class="c3 cextra">${g.extra.map(F).join('')}</div>`:''}</div>`})():''}
+          ${se.rows?`<div class="mosaic">${se.rows.map(r=>{ const row = Array.isArray(r) ? r : r.items; return `<div class="mosaic-row ${r.cls||''}">${row.map(f=>f.live?`<figure class="live-char" style="--ar:${f.ar}" aria-label="Personaje de Zianuro"><span class="zchar"><span class="mk" style="--m:url(img/marcas/zian-body.png)"></span><span class="mk eyes" style="--m:url(img/marcas/zian-eyes.png)"></span><span class="mk pupils" style="--m:url(img/marcas/zian-pupils.png)"></span></span><small>Muévete por aquí</small></figure>`:`<figure style="--ar:${f.ar}"${f.cap?` class="swatch" data-cap="${f.cap}"`:''}><img src="${f.src}" alt="${(se.title||it.name).replace(/<[^>]+>/g,'')}" loading="lazy"${f.pos?` style="object-position:${f.pos}"`:''}></figure>`).join('')}</div>`; }).join('')}</div>`:''}
+        </div>`).join('')}
+      </section>`;
+      continue;
+    }
+    const ratios = ["3/4","4/3","1/1","3/4","16/10","4/5","3/4","1/1","4/3"];
+    const pics = (it.gallery && it.gallery.length) ? it.gallery : ratios.map(r=>({ratio:r}));
+    html += `<section class="view section" id="v-${it.id}" data-parent="${key}"><div class="wrap">
+      ${head}
+      <div class="masonry reveal" style="--d:1">${pics.map((p,i)=>ph(it.c, p.src?it.name:`${it.name} ${i+1}`, p.src, p.ratio)).join('')}</div>
+    </div></section>`;
+  }
+}
+host.innerHTML = html;
+
+const nav = document.getElementById('nav');
+function route(){
+  let id = (location.hash||'#inicio').slice(1);
+  let v = document.getElementById('v-'+id);
+  if(!v){ id='inicio'; v=document.getElementById('v-inicio'); }
+  document.querySelectorAll('.view.on').forEach(x=>x.classList.remove('on'));
+  v.classList.add('on');
+  const active = v.dataset.parent || id;
+  const first = !nav.children.length;
+  nav.parentElement.classList.toggle('alt', id !== 'inicio');
+  nav.innerHTML = NAV.map(([k,l],i)=>{
+    const st = `--i:${i}${first?'':';animation:none'}`;
+    return k===active
+      ? `<a class="pill home" style="${st}" href="#inicio">Inicio</a>`
+      : `<a class="pill" style="${st}" href="#${k}">${l}</a>`;
+  }).join('');
+  window.scrollTo({top:0,behavior:'instant'});
+}
+/* Escribe "Pasen y vean..." cada vez que se entra en el inicio */
+const typed = document.querySelector('.typed');
+const FULL = typed.textContent;
+let typeTimer;
+function typeIt(){
+  clearTimeout(typeTimer);
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches){ typed.textContent = FULL; return; }
+  let i = 0; typed.textContent = '';
+  const step = () => {
+    typed.textContent = FULL.slice(0, ++i);
+    if (i < FULL.length) typeTimer = setTimeout(step, FULL[i-1] === ' ' ? 140 : 70 + Math.random()*70);
+  };
+  typeTimer = setTimeout(step, 900);
+}
+/* bandas: se revelan una a una al entrar en pantalla */
+const bandObs = 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches
+  ? new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.remove('pre'); bandObs.unobserve(e.target); } }), {threshold:.25})
+  : null;
+function prepBands(){
+  if (!bandObs) return;
+  document.querySelectorAll('.view.on .band').forEach(b => {
+    if (b.getBoundingClientRect().top > innerHeight){ b.classList.add('pre'); bandObs.observe(b); }
+  });
+}
+addEventListener('hashchange', () => requestAnimationFrame(prepBands));
+/* esfera con profundidad (solo con ratón); al pulsarla vuelve a escribir "Pasen y vean..." */
+const hero = document.querySelector('.hero');
+if (matchMedia('(hover:hover) and (pointer:fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  let raf = 0;
+  hero.addEventListener('pointermove', e => {
+    const r = hero.getBoundingClientRect();
+    const mx = ((e.clientX - r.left) / r.width - .5) * 2, my = ((e.clientY - r.top) / r.height - .5) * 2;
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(() => { hero.style.setProperty('--mx', mx.toFixed(3)); hero.style.setProperty('--my', my.toFixed(3)); });
+  });
+  hero.addEventListener('pointerleave', () => { hero.style.setProperty('--mx', 0); hero.style.setProperty('--my', 0); });
+}
+hero.querySelector('.orb').addEventListener('click', typeIt);
+
+/* easter egg: las servilletas se pueden arrastrar por la mesa del escáner */
+document.querySelectorAll('.nap').forEach((n,k) => n.style.setProperty('--k', k));
+if (matchMedia('(hover:hover) and (pointer:fine)').matches){
+  let top = 10;
+  document.querySelectorAll('.nap').forEach(n => {
+    let sx, sy, bx = 0, by = 0;
+    n.addEventListener('pointerdown', e => {
+      n.setPointerCapture(e.pointerId); n.classList.add('drag'); n.style.zIndex = ++top;
+      sx = e.clientX; sy = e.clientY;
+      bx = parseFloat(n.style.getPropertyValue('--dx')) || 0; by = parseFloat(n.style.getPropertyValue('--dy')) || 0;
+    });
+    n.addEventListener('pointermove', e => {
+      if (!n.classList.contains('drag')) return;
+      n.style.setProperty('--dx', (bx + e.clientX - sx) + 'px'); n.style.setProperty('--dy', (by + e.clientY - sy) + 'px');
+    });
+    const end = () => n.classList.remove('drag');
+    n.addEventListener('pointerup', end); n.addEventListener('pointercancel', end);
+  });
+}
+
+/* MARCAS: cambio de paleta con las fichas; pasa sola mientras está a la vista hasta que la tocas */
+document.querySelectorAll('.brand').forEach(b => {
+  const pal = JSON.parse(b.dataset.pal), chips = [...b.querySelectorAll('.chip')];
+  let i = 0, timer = null, touched = false;
+  const set = k => { i = k; b.style.setProperty('--b', pal[k][0]); b.style.setProperty('--f', pal[k][1]); chips.forEach((c,n)=>c.classList.toggle('on', n===k)); };
+  chips.forEach((c,n) => c.addEventListener('click', () => { touched = true; clearInterval(timer); set(n); }));
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(es => es.forEach(e => {
+    clearInterval(timer);
+    if (e.isIntersecting && !touched) timer = setInterval(() => set((i+1) % pal.length), 2200);
+  }), {threshold:.4}).observe(b);
+});
+
+/* MFD: cambia de submarca con las pestañas; pasa sola hasta que tocas una */
+document.querySelectorAll('.mfd').forEach(m => {
+  const subs = JSON.parse(m.dataset.subs), tabs = [...m.querySelectorAll('.tab')], box = m.querySelector('.mfd-subs');
+  const [h, v] = box.querySelectorAll('.mk');
+  let i = 0, timer = null, touched = false;
+  const set = k => {
+    i = k; const [name, col, ah, av] = subs[k];
+    tabs.forEach((t,n)=>t.classList.toggle('on', n===k));
+    h.classList.add('out'); v.classList.add('out');
+    setTimeout(() => {
+      box.style.setProperty('--f', col);
+      h.style.setProperty('--m', `url(img/marcas/mfd-h-${name}.png)`); h.style.setProperty('--ar', ah);
+      v.style.setProperty('--m', `url(img/marcas/mfd-v-${name}.png)`); v.style.setProperty('--ar', av);
+      h.classList.remove('out'); v.classList.remove('out');
+    }, 300);
+  };
+  tabs.forEach((t,n) => t.addEventListener('click', () => { touched = true; clearInterval(timer); set(n); }));
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(es => es.forEach(e => {
+    clearInterval(timer);
+    if (e.isIntersecting && !touched) timer = setInterval(() => set((i+1) % subs.length), 2400);
+  }), {threshold:.4}).observe(m);
+});
+
+/* Zianuro: las pupilas miran hacia el cursor */
+document.querySelectorAll('.live-char').forEach(box => {
+  const ch = box.querySelector('.zchar');
+  const move = (x, y) => {
+    const r = ch.getBoundingClientRect(), cx = r.left + r.width/2, cy = r.top + r.height*.48;
+    const dx = x - cx, dy = y - cy, d = Math.hypot(dx, dy) || 1, k = Math.min(1, d/300);
+    ch.style.setProperty('--px', (dx/d*k*2.4).toFixed(2)+'%'); ch.style.setProperty('--py', (dy/d*k*1.8).toFixed(2)+'%');
+  };
+  addEventListener('pointermove', e => { if (box.offsetParent) move(e.clientX, e.clientY); }, {passive:true});
+  box.addEventListener('pointerleave', () => { ch.style.setProperty('--px','0%'); ch.style.setProperty('--py','0%'); });
+});
+
+/* "Hablemos!": una sacudida al entrar en pantalla */
+(() => {
+  const h = document.querySelector('.contact h2');
+  if (!h || !('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ h.classList.add('said'); io.disconnect(); } }), {threshold:.8});
+  io.observe(h);
+})();
+
+/* presentación: se escribe letra a letra al entrar en pantalla */
+(() => {
+  const txt = document.querySelector('.about .txt');
+  if (!txt || !('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const chars = [];
+  const walk = node => {
+    [...node.childNodes].forEach(c => {
+      if (c.nodeType === 3){
+        const frag = document.createDocumentFragment();
+        [...c.textContent].forEach(chr => {
+          if (/\s/.test(chr) && chr !== ' ') { frag.append(chr); return; }
+          const sp = document.createElement('span'); sp.className = 'ch'; sp.textContent = chr; frag.append(sp); chars.push(sp);
+        });
+        c.replaceWith(frag);
+      } else if (c.nodeType === 1) walk(c);
+    });
+  };
+  walk(txt);
+  txt.classList.add('pre');
+  let i = 0, prev = null;
+  const step = () => {
+    const ch = chars[i]; if (!ch) return;
+    ch.classList.add('on'); prev && prev.classList.remove('cur'); ch.classList.add('cur'); prev = ch;
+    const next = chars[++i]; if (!next) return;
+    const endPara = next.parentElement.closest('p') !== ch.parentElement.closest('p');
+    const t = endPara ? 260 : /[.,:!?)]/.test(ch.textContent) ? 110 : ch.textContent === ' ' ? 18 : 9 + Math.random() * 14;
+    setTimeout(step, t);
+  };
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting){ io.disconnect(); setTimeout(step, 250); }
+  }), {threshold:.25});
+  io.observe(txt);
+})();
+document.getElementById('yr').textContent = new Date().getFullYear();
+addEventListener('hashchange', route); route(); typeIt(); requestAnimationFrame(prepBands);
+document.addEventListener('click', e => {
+  const b = e.target.closest('.scroll-cue'); if (!b) return;
+  const target = b.closest('.view').querySelector('.bands');
+  const top = target.getBoundingClientRect().top + scrollY - document.querySelector('.nav').offsetHeight;
+  scrollTo({top, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+});
+
+/* Visor: pulsa una foto de la galería para verla en grande; flechas, teclado y deslizar */
+const lb = document.getElementById('lb'), lbImg = lb.querySelector('img'), lbCap = lb.querySelector('figcaption');
+let lbList = [], lbI = 0, lastFocus = null;
+function lbShow(i){
+  lbI = (i + lbList.length) % lbList.length;
+  const im = lbList[lbI];
+  lbImg.classList.add('fade');
+  const pre = new Image(); pre.src = im.currentSrc || im.src;
+  pre.onload = pre.onerror = () => { lbImg.src = pre.src; lbImg.alt = im.alt; lbImg.classList.remove('fade'); };
+  lbCap.textContent = `${im.alt} · ${lbI+1} / ${lbList.length}`;
+}
+function lbOpen(img){
+  /* solo las fotos de la misma subsección (serie) */
+  const scope = img.closest('.mosaic, .masonry, .collage, .cgrid') || img.closest('.view');
+  lbList = [...scope.querySelectorAll('img')];
+  lastFocus = document.activeElement; lb.hidden = false; document.body.style.overflow = 'hidden';
+  lbShow(lbList.indexOf(img)); lb.querySelector('.close').focus();
+}
+function lbClose(){ lb.hidden = true; document.body.style.overflow = ''; lastFocus && lastFocus.focus(); }
+document.addEventListener('click', e => { const img = e.target.closest('.mosaic-row img, .masonry img, .collage img, .cgrid img'); if (img) lbOpen(img); });
+lb.querySelector('.prev').onclick = () => lbShow(lbI - 1);
+lb.querySelector('.next').onclick = () => lbShow(lbI + 1);
+lb.querySelector('.close').onclick = lbClose;
+lb.addEventListener('click', e => { if (e.target === lb || e.target.tagName === 'FIGURE') lbClose(); });
+addEventListener('keydown', e => {
+  if (lb.hidden) return;
+  if (e.key === 'ArrowLeft') lbShow(lbI - 1);
+  else if (e.key === 'ArrowRight') lbShow(lbI + 1);
+  else if (e.key === 'Escape') lbClose();
+});
+let tx = null;
+lb.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, {passive:true});
+lb.addEventListener('touchend', e => { if (tx === null) return; const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 40) lbShow(lbI + (dx < 0 ? 1 : -1)); tx = null; });
+addEventListener('hashchange', () => { if (!lb.hidden) lbClose(); });
+
+/* Botón subir: aparece al bajar más de una pantalla */
+const toTop = document.getElementById('toTop');
+const onScroll = () => toTop.classList.toggle('show', scrollY > innerHeight * .8);
+addEventListener('scroll', onScroll, {passive:true}); onScroll();
+toTop.onclick = () => scrollTo({top:0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+addEventListener('hashchange', () => { if (document.getElementById('v-inicio').classList.contains('on')) typeIt(); });
+if (matchMedia('(prefers-reduced-motion: reduce)').matches) document.querySelectorAll('video').forEach(v=>{v.removeAttribute('autoplay');v.pause();});
+
+document.addEventListener('click', e=>{
+  const b = e.target.closest('.tel'); if(!b) return;
+  const t = b.dataset.copy, tip = b.nextElementSibling;
+  const done = ()=>{ tip.textContent='Copiado'; tip.classList.add('show'); setTimeout(()=>tip.classList.remove('show'),1600); };
+  try{ navigator.clipboard.writeText(t).then(done).catch(()=>sel(b)); }catch(_){ sel(b); }
+});
+function sel(b){ const r=document.createRange(); r.selectNodeContents(b); const s=getSelection(); s.removeAllRanges(); s.addRange(r); }
+</script>
+</body>
+</html>
